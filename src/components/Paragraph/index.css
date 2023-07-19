@@ -1,0 +1,23 @@
+.paragraph-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraph-title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.paragraph-content-1 {
+    display: flex;
+}
+
+.paragraph-content-2,
+.paragraph-content-1 > p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
